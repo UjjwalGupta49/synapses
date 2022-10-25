@@ -6,10 +6,7 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    // colors: {
-    //   'main': '#252B63',
-    //   'gradinet-sunset': 'bg-gradient-to-r from-orange-300 to-rose-300'
-    // },
+
   },
   plugins: [],
 }
