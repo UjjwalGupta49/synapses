@@ -3,9 +3,14 @@ import Image from 'next/image'
 
 export const Banner = () => {
     return(
-        <div>
-            {/* <Image src="/profilePage/Gradient.jpg" width={2560} height={400}/> */}
-            <Image src="/profilePage/Gradient.jpg" width="2560" height="400"/>
-        </div>
+       
+        <Image src="/profilePage/Gradient.jpg"  className="pt-2.5 w-screen h-145"/>
+       
     )
 };
+
+
+
+            
+
+//  width="100%" height="100%"

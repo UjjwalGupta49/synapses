@@ -7,7 +7,7 @@ const profile = (props) => {
     const router = useRouter();
     const user = router.query.id
     return ( 
-    <div className=" min-h-screen m-0 pt-10" style={{backgroundColor: "#CCE6FF"}}>
+    <div className="min-h-screen m-0 " style={{backgroundColor: "#CCE6FF"}}>
         <components.Navbar />
         <Spacer />
         <components.Banner />
