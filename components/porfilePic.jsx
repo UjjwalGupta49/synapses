@@ -6,8 +6,8 @@ export const ProfilePic = () => {
   return (
     <Avatar
       src="/profilePage/profilePhoto.png"
-      objectFit="cover"
-      css={{size:"auto", maxSize: "$40", minSize: "$20"}}
+      objectfit="cover"
+      css={{size:"auto", maxSize: "$40", minSize: "$23"}}
       color="gradient"
       bordered
     

@@ -21,8 +21,8 @@ const Home = () => {
   return (
     <div className="flex min-h-screen m-0 p-0 flex-wrap justify-center items-center bg-gradient-to-r from-orange-300 to-rose-300">
       <Head>
-        <title>Identifyme</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Synap</title>
+        <link rel="icon" href="/favicon_synap/favicon.ico" />
       </Head>
 
       <div className="text-slate-900">
@@ -37,7 +37,8 @@ const Home = () => {
             }}
           />
           <br />
-          <div className="pt-10 pr-5">
+          {/* className="pt-10 pr-5" */}
+          <div className="flex justify-center items-center pt-10">
             {profileLink ? (
               <Link href={profileLink}>
                 <a>
